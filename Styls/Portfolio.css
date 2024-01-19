@@ -14,7 +14,7 @@ nav {
   font-size: 45px;
   font-weight: 800;
 }
-.main-colour {
+.main-color {
   color: #fd6e0a;
 }
 nav > ul {
@@ -128,10 +128,34 @@ main section {
   font-size: 30px;
   font-weight: 700;
 }
-.resume-item{
-
+.resume-item {
 }
-.resume-item{
+.resume-container {
   display: flex;
-  gap: 24;
+  margin: 30px;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+.resume-container hr {
+  margin: 10px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
 }
